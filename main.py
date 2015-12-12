@@ -1,6 +1,4 @@
-import vk
-import time
-import random
+import vk, time, random
 
 session = vk.AuthSession(access_token='')
 api = vk.API(session)
