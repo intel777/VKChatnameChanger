@@ -2,6 +2,7 @@ import vk, time, random
 
 session = vk.AuthSession(access_token='')
 api = vk.API(session)
+api.stats.trackVisitor()
 chatid = input('Enter id: ')
 chatname = input('Enter name: ')
 mess = input('Enter message: ')
