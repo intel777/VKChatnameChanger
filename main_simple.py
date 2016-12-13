@@ -14,4 +14,4 @@ while True:
     else:
         print('Changes detected!)
         api.messages.editChat(chat_id=chatid, title=chatname)
-    time.slep(1)
+    time.sleep(1)
